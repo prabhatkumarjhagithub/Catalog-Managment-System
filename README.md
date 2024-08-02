@@ -95,6 +95,10 @@ Request : key=brand & value=BrandC
         "createdOn": "2024-08-02T09:09:53.964+00:00",
         "updatedOn": "2024-08-02T09:09:53.964+00:00"
     }
+
+
+
+    
 4] PUT API: Update the available product attributes
 
 Endpoint:   http://localhost:8080/product/updateById?productId=2
@@ -125,6 +129,9 @@ Then we give the Result
     "createdOn": "2024-08-01T18:57:37.458+00:00",
     "updatedOn": "2024-08-02T09:49:53.462+00:00"
 }
+
+
+
 5] DELETE API: Delete the existing product details from the database
 
 Endpoint: http://localhost:8080/product/delete?productId=15
